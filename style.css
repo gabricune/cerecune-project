@@ -1,17 +1,20 @@
 
-body{
+body
+{
 	background-color: white;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 
-body, html {
+body, html
+{
     font-family: 'Poppins', sans-serif;
 	margin: 0;
 	height: 100%;
 }
 
-.navbar {
+.navbar 
+{
 	background-color: transparent;
 	padding: 30px 10px;
 	position: fixed;
@@ -24,7 +27,8 @@ body, html {
 	
 }
 
-.navbar a {
+.navbar a 
+{
 	float: left;
 	color: white;
 	text-align: center;
@@ -37,16 +41,18 @@ body, html {
     text-transform: uppercase;
 	text-decoration: none;
 }
-.navbar ul{
+.navbar ul
+{
 	text-decoration: none;
-	
 }
-.navbar ul li{
+.navbar ul li
+{
 	display: inline-block;
 	text-decoration: none;
 }
 
-.navbar .logo {
+.navbar .logo 
+{
 	font-size: 20px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -55,36 +61,39 @@ body, html {
 
 
 
-.navbar-right a.active {
+.navbar-right a.active 
+{
 	font-weight: 600;
 }
 
-.navbar-right a {
+.navbar-right a 
+{
 	transition: color 0.5s ease;
-	
 }
 
-.navbar-right {
+.navbar-right 
+{
 	float: right;
 }
 
-.navbar .icon {
+.navbar .icon 
+{
 	display: none;
-
 }
 
-.slideshow-container {
+.slideshow-container 
+{
 	position: relative;
 	height: 100%;
 }
 
 
-.logo span{
+.logo span
+{
     font-weight: 400;
-
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -92,14 +101,16 @@ body, html {
 	list-style-type: none;
 }
 
-.slider {
+.slider
+{
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 
-.slides {
+.slides
+{
     position: absolute;
     width: 300%;
     height: 100%;
@@ -108,7 +119,8 @@ body, html {
     transition: 2s ease;
 }
 
-.slide {
+.slide
+{
     width: 33.33%;
     height: 100%;
     position: relative;
@@ -118,7 +130,8 @@ body, html {
     background-repeat: no-repeat;
 }
 
-.slide::before {
+.slide::before
+{
     content: "";
     position: absolute;
     top: 0;
@@ -128,19 +141,23 @@ body, html {
     background-color: rgba(0,0,0,0.5);
 }
 
-.slide:nth-child(1) {
+.slide:nth-child(1)
+{
     background-image: url(img1.jpg);
 }
 
-.slide:nth-child(2) {
+.slide:nth-child(2)
+{
     background-image: url(img2.jpg);
 }
 
-.slide:nth-child(3) {
+.slide:nth-child(3)
+{
     background-image: url(img3.jpg);
 }
 
-.slide-data {
+.slide-data
+{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -150,18 +167,20 @@ body, html {
     padding: 0 20%;
 }
 
-.slide-data h1 {
-    
+.slide-data h1 
+{   
     font-weight: bolder;
     font-size: 45px;
 }
 
-.slide-data p {
+.slide-data p 
+{
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-.slide-data button {
+.slide-data button 
+{
     background: none;
     outline: none;
     border: 1px solid #fff;
@@ -169,17 +188,20 @@ body, html {
     font-weight: bolder;
     padding: 10px 10px;
     font-size: 20px;
+    text-transform: uppercase;
     transition: 0.4s linear;
 	border-radius: 5px;
 	margin-top: 5px;
 }
 
-.slide-data button:hover {
+.slide-data button:hover 
+{
     color: #000;
     background-color: #fff;
 }
 
-.slider .arrows {
+.slider .arrows 
+{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -191,26 +213,31 @@ body, html {
     transition: 0.4s linear;
 }
 
-.slider .arrows:hover {
+.slider .arrows:hover 
+{
     text-shadow: 0px 0px 10px black, 0px 0px 10px black;
 }
 
-.slider .prev {
+.slider .prev 
+{
     left: 3%;
 }
 
-.slider .next {
+.slider .next 
+{
     right: 3%;
 }
 
-.dots {
+.dots 
+{
     position: absolute;
     bottom: 1%;
     width: 100%;
     text-align: center;
 }
 
-.dots span {
+.dots span 
+{
     width: 12px;
     height: 12px;
     border-radius: 100px;
@@ -220,34 +247,41 @@ body, html {
     transition: 0.4s linear;
 }
 
-.dots span:hover {
+.dots span:hover 
+{
     background-color: #000 !important;
     border: 2px solid #fff;
 }
 
-.dot-active {
+.dot-active 
+{
     background-color: #000 !important;
     border: 2px solid #fff;
 }
 
 
-.footerpagina{
+.footerpagina
+{
     background: #27353a;
     padding: 20px;
     text-align: center;
 }
-.footerpagina p{
+.footerpagina p
+{
     color: white;
 }
-hr{
+hr
+{
     color: white;
 }
-.medialinks ul {
+.medialinks ul 
+{
     padding: 0;
     display: flex;
     justify-content: center;  
 }
-.medialinks ul li {
+.medialinks ul li 
+{
     margin: 0 10px;
     text-decoration: none;
     list-style: none;
@@ -255,12 +289,14 @@ hr{
     border-radius: 50%;
 
 }
-.medialinks ul li .fa {
+.medialinks ul li .fa 
+{
     color: white;
     font-size: 25px;
     line-height: 50px;
 }
-.medialinks a {
+.medialinks a 
+{
     position: relative;
     display: block;
     width: 50px;
@@ -269,59 +305,68 @@ hr{
     text-align: center;
 }
 
-nav.sopra ul{
+nav.sopra ul
+{
     background: linear-gradient(0deg, rgba(51,51,51,0.9214662063953488) 100%, rgba(255,255,255,0.5060399159663865) 100%);
 	border-radius: 10px;
 }
-nav.sopra .logo{
+nav.sopra .logo
+{
     background: linear-gradient(0deg, rgba(51,51,51,0.9214662063953488) 100%, rgba(255,255,255,0.5060399159663865) 100%);
 	border-radius: 10px;
 }
 
 
 
-@media screen and (max-width: 650px) {
-	.navbar {
+@media screen and (max-width: 768px) 
+{
+	.navbar
+    {
 		padding: 10px;
 	}
 	
-	.navbar .menu {
+	.navbar .menu
+    {
 		display: none;
 	}
 
-	.navbar .icon {
+	.navbar .icon
+    {
 		display: block;
 		position: absolute;
 		top: 13px;
 		right: 13px;
-		
 	}
 
-	.navbar.show {
+	.navbar.show 
+    {
 		background: black;
+        opacity: 55%;
 	}
 	
-    .navbar.show li{
+    .navbar.show li
+    {
 		display: block;
 	}
 
-	.navbar.show .menu {
+	.navbar.show .menu 
+    {
 		display: block;
 		width: 100%;
 	}
 
-	.navbar.show .menu a {
+	.navbar.show .menu a 
+    {
 		width: 100%;
 	}
-	nav.sopra ul{
+	nav.sopra ul
+    {
 		background: transparent;
 	}
-	nav.sopra .logo{
+	nav.sopra .logo
+    {
 		background: transparent;
 	}
-
-
-
 
 }
 
