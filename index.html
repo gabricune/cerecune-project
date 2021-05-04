@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<nav>
+<div id="topnav" class="navbar">
+  <a href="#" class="logo">Süd<span>tirol</span></a>
+  <div class="navbar-right menu">
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Discover</a></li>
+      <li><a href="#">Experience</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <div class="navbar-right">
+    <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+</nav>
+
+<div class="slider">
+  <div class="slides">
+      <div class="slide">
+          <div class="slide-data">
+              <h1>Südtirol</h1>
+              <p>Benvenuto in Alto Adige, terra di tradizioni, emozioni e natura</p>
+              <button>SCOPRI</button>
+          </div>
+      </div>
+      <div class="slide">
+          <div class="slide-data">
+              <h1>Magia altoatesina</h1>
+              <p>Scegli l'Alto Agige per la tua prossima vacanza e scopri paesaggi unici</p>
+              <button>SCOPRI</button>
+          </div>
+      </div>
+      <div class="slide">
+          <div class="slide-data">
+              <h1>Lusso</h1>
+              <p>Ammira il panorama alpinio e ritrova il tuo equilibrio interiore</p>
+              <button>SCOPRI</button>
+          </div>
+      </div>
+  </div>
+
+
+  <button class="arrows prev" onclick="plusslide(-1)">
+      <span><i class="fas fa-angle-left"></i></span>
+  </button>
+  <button class="arrows next" onclick="plusslide(1)">
+      <span><i class="fas fa-angle-right"></i></span>
+  </button>
+
+  <div class="dots">
+      <span onclick="currentslide(1)"></span>
+      <span onclick="currentslide(2)"></span>
+      <span onclick="currentslide(3)"></span>
+  </div>
+</div>
+<footer>
+  <div class="footerpagina">
+    <div class="medialinks">
+      <ul>
+        <li><a href="https://it-it.facebook.com/gcaerialphotos/"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/gcaerialphotos/"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCnqOV7ThDAUVk59U3zi1kmg"><i class="fa fa-youtube"></i></a></li>
+      </ul>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <p>© 2021 Cere&Cune. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="index.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script>
+$(window).scroll(function(){
+	if($(window).scrollTop()){
+		$("nav").addClass("sopra");
+	}
+	else{
+		$("nav").removeClass("sopra");
+	}
+
+});
+</script>
+
+
+
+</body>
+</html>
