@@ -1,4 +1,19 @@
 
+.tw 
+{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
 body
 {
 	background-color: white;
@@ -99,7 +114,8 @@ body, html
     font-weight: 400;
 }
 
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -387,5 +403,32 @@ nav.sopra .logo
 }
 
 
+
+
+
+.container 
+{
+    display: flex;
+    background: #000;
+}
+
+.testo
+{
+    width: 50%;
+    padding: 100px 0;
+}
+
+.divimmagine img
+{
+    width: 500px;
+    height: auto;
+}
+
+.divimmagine
+{
+    width: 50%;
+    text-align: center;
+    padding: 100px 0;
+}
 
 
