@@ -339,6 +339,41 @@ nav.sopra .logo
 }
 
 
+.container 
+{
+    display: flex;
+    background: #000;
+}
+
+.testo
+{
+    width: 50%;
+    padding: 100px 0;
+}
+
+.divimmagine img
+{
+    width: 500px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.divimmagine
+{
+    width: 50%;
+    text-align: center;
+    padding: 100px 0;
+
+    
+}
+.testo{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+
+
 
 @media screen and (max-width: 768px) 
 {
@@ -400,35 +435,16 @@ nav.sopra .logo
 		background: linear-gradient(0deg, rgba(51,51,51,0.9214662063953488) 100%, rgba(255,255,255,0.5060399159663865) 100%);
         border-radius: 10px;
 	}
+    .testo{
+        
+    }
+    .divimmagine{
+       
+    }
 }
 
 
 
 
-
-.container 
-{
-    display: flex;
-    background: #000;
-}
-
-.testo
-{
-    width: 50%;
-    padding: 100px 0;
-}
-
-.divimmagine img
-{
-    width: 500px;
-    height: auto;
-}
-
-.divimmagine
-{
-    width: 50%;
-    text-align: center;
-    padding: 100px 0;
-}
 
 
