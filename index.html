@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   </head>
 
   
@@ -73,6 +74,7 @@
 
 
 
+  <hr class="lineanera">
 
 <div class="str4">
   <div class="imagec4">
@@ -84,7 +86,7 @@
   </div>
 </div>
 <div class="str4 str4--reverse">
-  <div class="imagec4">
+  <div class="imagec4 reveal">
     <img src="img4.jpg" alt="immagine">
   </div>
   <div class="testo4 testo4--reverse">
@@ -100,6 +102,7 @@
     <p>HELLO WORLD</p>
   </div>
 </div>
+
 
 
 
@@ -138,5 +141,13 @@
   });
   </script>
   
+  <script>
+    ScrollReveal ().reveal('.reveal', { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 }); 
+    ScrollReveal ().reveal('.reveal2', { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)',origin:'left', interval: 600 }); 
+    ScrollReveal ().reveal('.reveal3', { distance: '180px', duration: 2000, easing: 'cubic-bezier(.215, .61, .355, 1)',origin:'right', interval: 600 }); 
+    ScrollReveal ().reveal('.zoom', { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false });
+
+  </script>
+
   </body>
 </html>

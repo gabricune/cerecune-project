@@ -448,3 +448,10 @@ nav.sopra .logo
     
 
 }
+
+.lineanera
+{
+    color: black;
+    border-top: black 2px solid ;
+    margin:30px 40px;
+}
