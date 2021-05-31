@@ -380,7 +380,8 @@ nav.sopra .logo
 
 
 
-.str4{
+.str4
+{
     padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
@@ -412,7 +413,7 @@ nav.sopra .logo
     background-color: white;
 }
 
-@media screen and (max-width: 768px) 
+@media screen and (max-width: 800px) 
 {
 	.navbar
     {
@@ -480,8 +481,123 @@ nav.sopra .logo
     }
     .str4--reverse{
         padding-top: 0px;
-    }
-    
+    } 
 
 }
+
+
+
+
+
+
+
+.containerdiscover
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxdiscover
+{
+    width: 50%;
+    height: 100vh;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.contenutodiscover
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenutodiscover button
+{
+    background: none;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.4s linear;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.contenutodiscover h1
+{
+    margin-top: 50%;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.contenutodiscover button:hover 
+{
+    color: #000;
+    background-color: #fff;
+}
+
+
+.grid
+{
+    display: flex;
+    max-width: 1350px;
+    padding: 0 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.grid 
+{
+    width: 100%;
+}
+
+.col
+{
+    width: 100%;
+}
+
+.main-carousel
+{
+    padding: 40px 0;
+}
+
+.carousel-cell
+{
+    height: 350px;
+    width: 350px;
+    background: darkgreen;
+    border-radius: 100%;
+    line-height: 350px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+
+
+@media screen and (max-width: 1024px) 
+{
+    .boxdiscover
+    {
+        width: 100%;
+        height: 50vh;
+    }
+    .contenutodiscover h1
+    {
+        margin: none;
+        margin-top: 30%;
+    }
+    .grid
+    {
+        flex-wrap: wrap;
+    }
+
+}
+
+
 
