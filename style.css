@@ -514,6 +514,10 @@ nav.sopra .logo
     justify-content: center;
 }
 
+.contenutodiscovertext{
+    margin: auto;
+}
+
 .contenutodiscover button
 {
     background: none;
@@ -526,12 +530,11 @@ nav.sopra .logo
     text-transform: uppercase;
     transition: 0.4s linear;
     border-radius: 5px;
-    margin-top: 5px;
+
 }
 
 .contenutodiscover h1
 {
-    margin-top: 50%;
     font-weight: bolder;
     font-size: 45px;
 }
