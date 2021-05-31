@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Discover</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+
+
+<body>
+    <nav>
+        <div id="topnav" class="navbar">
+          <a href="#" class="logo">Süd<span>tirol</span></a>
+            <div class="navbar-right menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html"  class="active">Discover</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-right">
+              <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+        </div>
+      </nav>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Jquery -->
+
+  <script src="index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script>
+  $(window).scroll(function(){
+    if($(window).scrollTop()){
+      $("nav").addClass("sopra");
+    }
+    else{
+      $("nav").removeClass("sopra");
+    }
+
+  });
+  </script>
+  
+  <script>
+    ScrollReveal ().reveal('.reveal', { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 }); 
+    ScrollReveal ().reveal('.reveal2', { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)',origin:'left', interval: 600 }); 
+    ScrollReveal ().reveal('.reveal3', { distance: '180px', duration: 2000, easing: 'cubic-bezier(.215, .61, .355, 1)',origin:'right', interval: 600 }); 
+    ScrollReveal ().reveal('.zoom', { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false });
+
+  </script>
+
+</html>

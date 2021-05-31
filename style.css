@@ -4,6 +4,13 @@
     color: white;
 }
 
+.lineanera
+{
+    color: black;
+    border-top: black 2px solid ;
+    margin:30px 40px;
+}
+
 
 
 
@@ -340,7 +347,36 @@ nav.sopra .logo
 	border-radius: 10px;
 }
 
-
+.galleria {
+    background-color: #ffffff;
+    overflow: auto;
+    margin: auto;
+    text-align: center;
+    
+    padding-bottom: 35px;
+}
+.galleria h2{
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+.galleria p{
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.galleriabox {
+    margin: 5px;
+    width: 28%;
+    display: inline-block;
+    overflow: hidden;
+}
+.galleriabox img{
+    width: 100%;
+    transition: 0.25s ease-in-out;  
+}
+.galleriabox:hover img{
+    transform: scale(1.1);
+}
 
 
 
@@ -449,9 +485,3 @@ nav.sopra .logo
 
 }
 
-.lineanera
-{
-    color: black;
-    border-top: black 2px solid ;
-    margin:30px 40px;
-}
