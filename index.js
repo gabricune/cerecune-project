@@ -92,4 +92,3 @@ slider.addEventListener("mouseout" , ()=> {
         showslide();   
     } , 3000);    // on mouseout from slide then again start Changing every image after 3  seconds 
 });
-
