@@ -389,9 +389,7 @@ nav.sopra .logo
 .mappaattributes
 {
     width: 100%;  
-    border: 0px; 
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border: 0px;
     box-shadow: 0 15px 45px rgba(0,0,0,.1);
 }
  
@@ -782,7 +780,8 @@ hr
 .titoloservizi h1
 {
     background-color: #27353a;
-    padding-top: 150px;
+    padding-top: 130px;
+    padding-bottom: 30px;
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
@@ -802,8 +801,6 @@ hr
 .servizibox
 {
     padding: 25px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
-        url(./immagini/img2.jpg);
     background-position: center center; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -814,6 +811,22 @@ hr
     text-align: center;
     box-shadow: 0 15px 45px rgba(0,0,0,.1);
     border: 2px solid white;
+}
+
+.servizibox:nth-child(1)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img29.jpg);
+}
+.servizibox:nth-child(2)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img30.jpg);
+}
+.servizibox:nth-child(3)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img31.jpg);
 }
 
 .numero
@@ -856,13 +869,43 @@ hr
 {
     height: 250px;
     width: 250px;
-    background: darkgrey;
     border-radius: 100%;
     line-height: 250px;
     text-align: center;
     display: inline-block;
     margin-right: 40px;
     margin-bottom: 40px;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    
+}
+.dot:nth-child(1)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img32.jpg);
+}
+.dot:nth-child(2)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img33.jpg);
+}
+.dot:nth-child(3)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img34.jpg);
+}
+.dot:nth-child(4)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img35.jpg);
+}
+.dot h1{
+    color: white;
+}
+.bigtext{
+    font-size: 40px;
 }
 
 
