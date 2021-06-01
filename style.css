@@ -102,7 +102,7 @@ body, html
 
 .navbar-right 
 {
-	transition: color 0.5s ease; 
+	 transition: 2s;
 }
 
 
@@ -403,7 +403,16 @@ nav.sopra .logo
     width: 35%;
 }
 
-
+.map{
+    width: 35%;
+}
+.mappaattributes{
+    width: 100%;  
+    border: 0px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+}
  
 .testo4--reverse{
     text-align: right;
@@ -418,6 +427,7 @@ nav.sopra .logo
 	.navbar
     {
 		padding: 10px;
+
 	}
 	
 	.navbar .menu
@@ -453,8 +463,9 @@ nav.sopra .logo
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
-       
+        
 	}
+
 
 	.navbar.show .menu a 
     {
@@ -467,7 +478,6 @@ nav.sopra .logo
         padding-bottom: 5px;
         padding-left: 15px;
         padding-right: 15px;
-
 	}
     nav.sopra .icon{
 		background: linear-gradient(0deg, rgba(51,51,51,0.9214662063953488) 100%, rgba(255,255,255,0.5060399159663865) 100%);
@@ -479,9 +489,12 @@ nav.sopra .logo
     .imagec4{
         width: 100%;
     }
-    .str4--reverse{
+    .str4{
         padding-top: 0px;
-    } 
+    }
+    .map{
+        width: 100%;
+    }
 
 }
 
@@ -503,7 +516,7 @@ nav.sopra .logo
     width: 50%;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
-        url(./immagini/img2.jpg);
+        url(./immagini/img13.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -550,10 +563,18 @@ nav.sopra .logo
     color: #000;
     background-color: #fff;
 }
-.boxdiscover--winter
+.boxdiscoverwinter
 {
+    width: 50%;
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
-        url(./immagini/img2.jpg); 
+        url(./immagini/img7.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -585,18 +606,97 @@ nav.sopra .logo
 {
     height: 350px;
     width: 350px;
-    background: darkgreen;
     border-radius: 100%;
     line-height: 350px;
     text-align: center;
     margin-right: 40px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
+.carousel-cell h1{
+    color: white;
+    text-transform: uppercase;
+}
 
+.carousel-cell:nth-child(1)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+    url(./immagini/img8.jpg);
+   
+}
+
+.carousel-cell:nth-child(2)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img4.jpg);
+
+}
+
+.carousel-cell:nth-child(3)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img9.jpg);
+}
+
+.carousel-cell:nth-child(4)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img11.jpg);
+}
+
+.carousel-cell:nth-child(5)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img10.jpg);
+}
+
+.carousel-cell:nth-child(6)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img12.jpg);
+}
+.carousel-cell--winter:nth-child(1)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img15.jpg);
+}
+.carousel-cell--winter:nth-child(2)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img5.jpg);
+}
+.carousel-cell--winter:nth-child(3)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img16.jpg);
+}
+.carousel-cell--winter:nth-child(4)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img17.jpg);
+}
+.carousel-cell--winter:nth-child(5)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img18.jpg);
+}
+.carousel-cell--winter:nth-child(6)
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img19.jpg);
+}
 
 @media screen and (max-width: 1024px) 
 {
     .boxdiscover
+    {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .boxdiscoverwinter
     {
         width: 100%;
         height: 50vh;
