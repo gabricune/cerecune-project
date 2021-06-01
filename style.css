@@ -13,7 +13,6 @@
 
 
 /* STILE BASE*/
-
 .tw 
 {
     color: white;
@@ -51,8 +50,9 @@ body, html
 
 
 
-/* NAV */
+/* INDEX */
 
+/* Nav */
 .navbar 
 {
 	background-color: transparent;
@@ -148,10 +148,7 @@ nav.sopra .logo
 }
 
 
-
-
-/* SLIDE HERO */
-
+/* Slide Hero */
 .slider
 {
     position: relative;
@@ -312,7 +309,7 @@ nav.sopra .logo
 
 
 
-/* GALLERIA */
+/* Galleria */
 
 .galleria 
 {
@@ -357,8 +354,7 @@ nav.sopra .logo
 }
 
 
-
-/* PANEL */
+/* Panel */
 
 .str4
 {
@@ -411,8 +407,7 @@ nav.sopra .logo
 }
 
 
-
-/* FOOTER */
+/* Footer */
 
 .footerpagina
 {
@@ -466,8 +461,7 @@ hr
 }
 
 
-
-/* RESPONSIVE HOME */
+/* Responsive index */
 
 @media screen and (max-width: 800px) 
 {
@@ -556,10 +550,9 @@ hr
 
 
 
+/* DISCOVER */
 
-
-/* SPLIT HERO */
-
+/* Split hero*/
 .containerdiscover
 {
     display: flex;
@@ -634,9 +627,7 @@ hr
 }
 
 
-
-/* GRID E CAROUSEL */
-
+/* Grid e Carousel */
 .grid
 {
     display: flex;
@@ -758,8 +749,7 @@ hr
 }
 
 
-
-/* RESPONSIVE DISCOVER */
+/* Responsive Discover */
 
 @media screen and (max-width: 1024px) 
 {
@@ -786,9 +776,127 @@ hr
 
 
 
+/* BAITE */
 
-/*SECTION*/
+/* Libreria */
+.titoloservizi h1
+{
+    background-color: #27353a;
+    padding-top: 150px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30pt;
+}
 
+.containerservizi
+{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, #27353a 50%);
+    overflow: auto;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.servizibox
+{
+    padding: 25px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url(./immagini/img2.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin: 30px;
+    width: 280px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+    border: 2px solid white;
+}
+
+.numero
+{
+    width: 60px;
+    height: 60px;
+    background: #27353a;
+    color: #ffffff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    font-size: 10px;
+}
+
+.servizibox h2
+{
+    color: #ffffff;
+}
+
+
+/* Panel_2 */
+
+.panel
+{
+    background: white;
+}
+
+.panel__text
+{
+    display: flex;
+    align-items: center;
+}
+
+.dot
+{
+    height: 250px;
+    width: 250px;
+    background: darkgrey;
+    border-radius: 100%;
+    line-height: 250px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* Responsive Baite */
+
+@media screen and (max-width: 1024px)
+{
+    .containerservizi
+    {
+        background: #27353a;
+    }
+
+    .lineanera
+    {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTATTI */
+
+/* Section */
   section 
   {
     width: 100%;
@@ -886,7 +994,8 @@ hr
     animation: status 4s ease forwards;
   }
 
-  @keyframes status {
+  @keyframes status 
+  {
     0% {
       opacity: 1;
       pointer-events: all;

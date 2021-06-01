@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+
+  <head>
+    <title>Baite</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  </head>
+
+
+  <body>
+  
+    <!-- NAV -->
+      <nav>
+        <div id="topnav" class="navbar">
+          <a href="#" class="logo">Süd<span>tirol</span></a>
+            <div class="navbar-right menu">
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pagine/discover.html">Discover</a></li>
+                <li><a href="baite.html" class="active">Baite</a></li>
+                <li><a href="../pagine/contatti.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-right">
+              <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+        </div>
+      </nav>
+
+
+    <!--LIBRERIA -->
+      <div class="titoloservizi">
+        <h1>Le baite</h1>
+      </div>
+      <div class="containerservizi">
+        <div class="servizibox">
+          <div class="numero"><h1>1st</h1></div>
+          <h2>nome</h2>
+        </div>
+        <div class="servizibox">
+          <div class="numero"><h1>2nd</h1></div>
+          <h2>nome</h2> 
+        </div>
+        <div class="servizibox">
+          <div class="numero"><h1>3rd</h1></div>
+          <h2>nome</h2>   
+        </div>
+      </div>
+      <hr class="lineanera">
+
+
+      <!--PANEL_2 -->
+      <div class="panel">
+        <div class="grid panel">
+            <div class="col panel__dots">
+                <div class="dot">Text</div>
+                <div class="dot">Text</div>
+                <div class="dot">Text</div>
+                <div class="dot">Text</div>
+            </div>
+            <div class="col panel__text">
+                <div class="grid">
+                    <div class="col">
+                        <h1 class="bigtext">Lorem Ipsum</h1>
+                    </div>
+                    <div class="col">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure est fugit debitis dolores cum aliquam? Vero odit tempora repellendus rem commodi quasi at voluptatibus, excepturi accusantium deserunt tempore nulla quaerat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+      
+      
+    <!-- FOOTER -->
+    <footer>
+        <div class="footerpagina">
+        <div class="medialinks">
+            <ul>
+            <li><a href="https://it-it.facebook.com/gcaerialphotos/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/gcaerialphotos/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCnqOV7ThDAUVk59U3zi1kmg"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <p>© 2021 Cere&Cune. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+  <!-- Jquery -->
+  <script src="index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script>
+  $(window).scroll(function(){
+    if($(window).scrollTop()){
+      $("nav").addClass("sopra");
+    }
+    else{
+      $("nav").removeClass("sopra");
+    }
+
+  });
+  </script>
+  
+  <script>
+    ScrollReveal ().reveal('.reveal', { distance: '100px', duration: 800, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 }); 
+    ScrollReveal ().reveal('.reveal2', { distance: '100px', duration: 800, easing: 'cubic-bezier(.215, .61, .355, 1)',origin:'left', interval: 600 }); 
+    ScrollReveal ().reveal('.reveal3', { distance: '180px', duration: 1000, easing: 'cubic-bezier(.215, .61, .355, 1)',origin:'right', interval: 600 }); 
+    ScrollReveal ().reveal('.zoom', { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false });
+
+  </script>
+
+  </body>
+</html>
