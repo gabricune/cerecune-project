@@ -1,101 +1,47 @@
 <!DOCTYPE html>
 <html lang="it">
 
-<head>
-    <title>Discover</title>
+  <head>
+    <title>Home</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" integrity="sha512-BiFZ6oflftBIwm6lYCQtQ5DIRQ6tm02svznor2GYQOfAlT3pnVJ10xCrU3XuXnUrWQ4EG8GKxntXnYEdKY0Ugg==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-</head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
 
-
-<body>
-
-   <!-- NAV -->
+  <body>
+  
+  <!-- NAV -->
     <nav>
-        <div id="topnav" class="navbar">
-          <a href="#" class="logo"><span>the</span>LUXURY<span>PLANET</span></a>
-            <div class="navbar-right menu">
-              <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="discover.html"  class="active">Chi siamo</a></li>
-                <li><a href="./baite.html">Shop</a></li>
-                <li><a href="./contatti.html">Contatti</a></li>
-              </ul>
-            </div>
-            <div class="navbar-right">
-              <a href="javascript:void(0);" class="icon" onclick="showMenu()">
-                <i class="fa fa-bars"></i>
-              </a>
-            </div>
-        </div>
-      </nav>
-
-
-    <!-- SPLIT HERO -->
-    <div class="containerdiscover">
-      <div class="boxdiscover boxdiscover--news">
-        <div class="contenutodiscovertext contenutodiscovertext--news">
-          <h1 class="tw">E-Shop</h1>
-          <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
-        </div>
-      </div>
-    </div>
-    <div class="containerdiscover">
-        <div class="boxdiscover boxdiscover--leftm">
-              <div class="contenutodiscovertext">
-                <h1 class="tw">Sport</h1>
-                <a href="#ancora4">
-                  <button>scopri</button>
-                </a>
-              </div>
-        </div>
-        <div class="boxdiscoverwinter">
-          
-            <div class="contenutodiscovertext">
-              <h1 class="tw">Jewlery</h1>
-              <a href="#ancora5">
-                <button>scopri</button>
-              </a>
-            </div>     
-        </div>
-        <div class="boxdiscoverwinter boxdiscoverwinter--rightm">
-          <div class="contenutodiscovertext">
-            <h1 class="tw">Events</h1>
-            <a href="#ancora5">
-              <button>scopri</button>
+      <div id="topnav" class="navbar">
+        <a href="#" class="logo"><span>the</span>LUXURY<span>PLANET</span></a>
+          <div class="navbar-right menu">
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="./pagine/discover.html">Chi siamo</a></li>
+              <li><a href="./pagine/baite.html">Shop</a></li>
+              <li><a href="./pagine/contatti.html">Contatti</a></li>
+              <li><a href="./pagine/login.html"><i class="fa fa-shopping-bag"></i></a>
+              </li>
+              <li><a href="./pagine/login.html"><i class="fa fa-user" aria-hidden="true" ></i></a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="navbar-right">
+            <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+              <i class="fa fa-bars"></i>
             </a>
-          </div>     
+          </div>
       </div>
-    </div>
-    <br>
+    </nav>
 
-      <!-- GALLERIA 3 -->
-  <div class="galleria zoom">
-    <h2>Vivi l'eperienza del lusso</h2>
-    <p>Concediti una vacanza esclusiva nelle nostre lussuose strutture</p>
-    
-    <div class="galleriabox galleriabox--res zoom">
-      <img src="../immagini/img26.jpg" alt="seceda">
-    </div>
-    <div class="galleriabox zoom">
-      <img src="../immagini/img27.jpg" alt="golf">
-    </div>
-    <div class="galleriabox galleriabox--res zoom">
-      <img src="../immagini/img28.jpg" alt="sirmione">
-    </div>
-    <br>
-    <div class="reveal">
-    <p>Concediti una vacanza esclusiva nei nostri lussuosi hotel, rilassati nelle SPA e nelle piscine esterne riscaldate, ammirando il panorama. Prova i migliori ristoranti eleganti e gusta il nostro buon tradizionale vino</p>
-  </div>
-  </div>
+
 
   <!-- SLIDE HERO -->
   <div class="slider slider--shop">
@@ -109,8 +55,8 @@
                 </a>
             </div>
         </div>
-        <div class="slide">
-            <div class="slide-data slide-data--btn">
+        <div class="slide slide--scura">
+            <div class="slide-data">
                 <h1>Un E-Shop unico</h1>
                 <p>Acquista articoli di sport, alta gioielleria e molto altro</p>
                 <a href="#ancora2">
@@ -119,7 +65,7 @@
             </div>
         </div>
         <div class="slide">
-            <div class="slide-data slide-data--btn">
+            <div class="slide-data">
                 <h1>TheHubs</h1>
                 <p>Scopri le nostre sedi e lasciati guidare dalla magia del lusso</p>
                 <a href="#ancora3">
@@ -143,21 +89,20 @@
     </div>
   </div>
   <a name="ancora1"></a>
-  
-  
+  <hr class="lineanera">
 
   <!--featured-->
   <div class="categorie">
     <div class="small-container">
       <div class="row">
         <div class="col-3">
-          <img src="../immagini/img26.jpg" alt="seceda">
+          <img src="./immagini/img26.jpg" alt="seceda">
         </div>
         <div class="col-3">
-          <img src="../immagini/img26.jpg" alt="seceda">
+          <img src="./immagini/img26.jpg" alt="seceda">
         </div>
         <div class="col-3">
-          <img src="../immagini/img26.jpg" alt="seceda">
+          <img src="./immagini/img26.jpg" alt="seceda">
         </div>
       </div>
     </div>
@@ -168,7 +113,7 @@
     <h2 class="titleshop">lorem ipsum dolor</h2>
     <div class="row">
       <div class="col-4">
-        <img src="../immagini/img26.jpg" alt="seceda">
+        <img src="./immagini/img26.jpg" alt="seceda">
         <h4>Lorem ipsum dolor</h4>
         <div class="rating">
           <i class="fa fa-star" ></i>
@@ -180,7 +125,7 @@
         <p>price</p>
       </div>
       <div class="col-4">
-        <img src="../immagini/img26.jpg" alt="seceda">
+        <img src="./immagini/img26.jpg" alt="seceda">
         <h4>Lorem ipsum dolor</h4>
         <div class="rating">
           <i class="fa fa-star" ></i>
@@ -192,7 +137,7 @@
         <p>price</p>
       </div>
       <div class="col-4">
-        <img src="../immagini/img26.jpg" alt="seceda">
+        <img src="./immagini/img26.jpg" alt="seceda">
         <h4>Lorem ipsum dolor</h4>
         <div class="rating">
           <i class="fa fa-star" ></i>
@@ -204,7 +149,7 @@
         <p>price</p>
       </div>
       <div class="col-4">
-        <img src="../immagini/img26.jpg" alt="seceda">
+        <img src="./immagini/img26.jpg" alt="seceda">
         <h4>Lorem ipsum dolor</h4>
         <div class="rating">
           <i class="fa fa-star" ></i>
@@ -223,7 +168,7 @@
     <h2 class="titleshop">lorem ipsum dolor</h2>
     <div class="row">
       <div class="col-4">
-        <img src="../immagini/img26.jpg" alt="seceda">
+        <img src="./immagini/img26.jpg" alt="seceda">
         <h4>Lorem ipsum dolor</h4>
         <div class="rating">
           <i class="fa fa-star" ></i>
@@ -235,7 +180,7 @@
         <p>price</p>
       </div>
       <div class="col-4">
-        <img src="../immagini/img26.jpg" alt="seceda">
+        <img src="./immagini/img26.jpg" alt="seceda">
         <h4>Lorem ipsum dolor</h4>
         <div class="rating">
           <i class="fa fa-star" ></i>
@@ -247,7 +192,7 @@
         <p>price</p>
       </div>
       <div class="col-4">
-        <img src="../immagini/img26.jpg" alt="seceda">
+        <img src="./immagini/img26.jpg" alt="seceda">
         <h4>Lorem ipsum dolor</h4>
         <div class="rating">
           <i class="fa fa-star" ></i>
@@ -259,62 +204,7 @@
         <p>price</p>
       </div>
       <div class="col-4">
-        <img src="../immagini/img26.jpg" alt="seceda">
-        <h4>Lorem ipsum dolor</h4>
-        <div class="rating">
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star-o"></i>
-        </div>
-        <p>price</p>
-      </div>
-    </div>
-  </div>
-
-  <!--featured products-->
-  <div class="small-container">
-    <h2 class="titleshop">lorem ipsum dolor</h2>
-    <div class="row">
-      <div class="col-4">
-        <img src="../immagini/img26.jpg" alt="seceda">
-        <h4>Lorem ipsum dolor</h4>
-        <div class="rating">
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star-o"></i>
-        </div>
-        <p>price</p>
-      </div>
-      <div class="col-4">
-        <img src="../immagini/img26.jpg" alt="seceda">
-        <h4>Lorem ipsum dolor</h4>
-        <div class="rating">
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star-o"></i>
-        </div>
-        <p>price</p>
-      </div>
-      <div class="col-4">
-        <img src="../immagini/img26.jpg" alt="seceda">
-        <h4>Lorem ipsum dolor</h4>
-        <div class="rating">
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star" ></i>
-          <i class="fa fa-star-o"></i>
-        </div>
-        <p>price</p>
-      </div>
-      <div class="col-4">
-        <img src="../immagini/img26.jpg" alt="seceda">
+        <img src="./immagini/img26.jpg" alt="seceda">
         <h4>Lorem ipsum dolor</h4>
         <div class="rating">
           <i class="fa fa-star" ></i>
@@ -329,12 +219,6 @@
   </div>
 
   
-
-
-  
-  
-
-
   <!-- FOOTER -->
   <footer>
     <div class="footerpagina">
@@ -346,15 +230,16 @@
         </ul>
       </div>
       <br>
-      <p>© 2022 Deve&Cune. All rights reserved.</p>
+      <hr>
+      <br>
+      <p>© 2021 Cere&Cune. All rights reserved.</p>
     </div>
   </footer>
 
 
 
   <!-- Jquery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js" integrity="sha512-cA8gcgtYJ+JYqUe+j2JXl6J3jbamcMQfPe0JOmQGDescd+zqXwwgneDzniOd3k8PcO7EtTW6jA7L4Bhx03SXoA==" crossorigin="anonymous"></script>
-  <script src="../index.js"></script>
+  <script src="index.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script>
   $(window).scroll(function(){
@@ -375,5 +260,5 @@
     ScrollReveal ().reveal('.zoom', { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false });
   </script>
 
-</body>
+  </body>
 </html>

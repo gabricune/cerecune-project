@@ -1,5 +1,3 @@
-
-
 function showMenu() {
 	var topNav = document.getElementById('topnav');
 	if (topNav.className === "navbar") {
@@ -8,6 +6,8 @@ function showMenu() {
 		topNav.className = "navbar";
 	}
 }
+
+
 
 
 let slideIndex = 0;

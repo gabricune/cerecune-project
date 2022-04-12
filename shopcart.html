@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  
+  <!-- NAV -->
+    <nav>
+      <div id="topnav" class="navbar dark">
+        <a href="#" class="logo"><span>the</span>LUXURY<span>PLANET</span></a>
+          <div class="navbar-right menu">
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="./pagine/discover.html">Chi siamo</a></li>
+              <li><a href="./pagine/baite.html">Shop</a></li>
+              <li><a href="./pagine/contatti.html">Contatti</a></li>
+              <li><a href="./pagine/login.html"><i class="fa fa-shopping-bag"></i></a>
+              </li>
+              <li><a href="./pagine/login.html"><i class="fa fa-user" aria-hidden="true" ></i></a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="navbar-right">
+            <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+      </div>
+    </nav>
+
+  <div class="small-container single-product">
+      <div class="row">
+          <div class="col-2">
+            <img src="./immagini/img26.jpg" alt="seceda">
+
+
+          </div>
+          <div class="col-2">
+            <p>Home / product</p>
+            <h2>product name</h2>
+            <h4>40.00 $</h4>
+            <select>
+                <option>select size</option>
+                <option>S</option>
+                <option>S</option>
+                <option>S</option>
+                <option>S</option>
+            </select>
+            <br>
+            <input type="number" value="1">
+            <a href="" class="btn btnprod"> Add to cart</a>
+            <br>
+            <br>
+            <h3>Product details <i class="fa fa-indent" ></i></h3>
+            <br>
+            <p> lorem ipsum dolor</p>
+
+
+
+
+          </div>
+      </div>
+  </div>
+
+  <!--featured products-->
+  <div class="small-container">
+    <div class="row">
+      <div class="col-4">
+        <img src="./immagini/img26.jpg" alt="seceda">
+        <h4>Lorem ipsum dolor</h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>price</p>
+      </div>
+      <div class="col-4">
+        <img src="./immagini/img26.jpg" alt="seceda">
+        <h4>Lorem ipsum dolor</h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>price</p>
+      </div>
+      <div class="col-4">
+        <img src="./immagini/img26.jpg" alt="seceda">
+        <h4>Lorem ipsum dolor</h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>price</p>
+      </div>
+      <div class="col-4">
+        <img src="./immagini/img26.jpg" alt="seceda">
+        <h4>Lorem ipsum dolor</h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>price</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footerpagina">
+      <div class="medialinks">
+        <ul>
+          <li><a href="https://it-it.facebook.com/gcaerialphotos/"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/gcaerialphotos/"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCnqOV7ThDAUVk59U3zi1kmg"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <p>© 2021 Cere&Cune. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+  <!-- Jquery -->
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script>
+  $(window).scroll(function(){
+    if($(window).scrollTop()){
+      $("nav").addClass("sopra");
+    }
+    else{
+      $("nav").removeClass("sopra");
+    }
+
+  });
+  </script>
+  
+  <script>
+    ScrollReveal ().reveal('.reveal', { distance: '100px', duration: 300, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 300 }); 
+    ScrollReveal ().reveal('.reveal2', { distance: '100px', duration: 300, easing: 'cubic-bezier(.215, .61, .355, 1)',origin:'left', interval: 300 }); 
+    ScrollReveal ().reveal('.reveal3', { distance: '180px', duration: 500, easing: 'cubic-bezier(.215, .61, .355, 1)',origin:'right', interval: 300 }); 
+    ScrollReveal ().reveal('.zoom', { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false });
+  </script>
+
+  </body>
+</html>
